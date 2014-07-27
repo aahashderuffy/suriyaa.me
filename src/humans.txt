@@ -1,0 +1,39 @@
+/* THIS IS THE HUMANS.TXT TO SIGN THIS WEBSITE! */
+
+----
+
+/* TEAM */
+
+/* Website, Videos, etc. */
+Author: Suriyaa Kudo
+Site: http://suriyaa.me
+Twitter: @SuriyaaKudoIsc
+Location: Munich (MÜ) , Bavaria (BY), Germany (DE)
+
+----
+
+/* THANKS */
+
+* GitHub
+* Bootstrap
+* Normalize.css
+* jQuery
+* Modernizr
+* MediaElement.js
+* PrestaShop
+* WordPress
+* MediaWiki
+* YOURLS
+
+----
+
+/* SITE */
+
+Link: http://suriyaa.me or http://suriyaa.isc
+
+Create date: 2014/07/27
+Last update: 2014/07/27
+
+Standards: HTML5, CSS3
+Components: HTML5, CSS3, JavaScript, Normalize.css, jQuery, Modernizr
+Software: GitHub
