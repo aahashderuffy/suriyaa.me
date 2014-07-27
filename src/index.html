@@ -17,14 +17,20 @@
         <!-- Apple Touch Icon(s) -->
             <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png"/>
 
-    <!-- BOOTSTRAP -->
-            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-            <link rel="stylesheet" href="assets/css/cover.css">
-            
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-            
-            <script src="assets/js/vendor/modernizr-2.8.0.min.js"></script>
+    <!-- CSS -->
+            <link rel="stylesheet" href="assets/css/normalize.css" type="text/css" />
+            <link rel="stylesheet" href="assets/css/base.css" type="text/css" />
+      <!--[if lt IE 9]>
+        <script src="/js/html5shiv.js"></script>
+      <![endif]-->
+
+    <!-- TYPEKIT -->
+            <script type="text/javascript" src="//use.typekit.net/bnv8gvu.js"></script>
+            <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <!-- SCRIPTS -->
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+            <script type="text/javascript" src="assets/js/toggle-nav.js"></script>
 
     <!-- FACEBOOK -->
             <meta property="og:url" content="http://suriyaa.me">
@@ -54,13 +60,15 @@
 <![endif]-->
 
 <!-- Add your site or application content here -->
-    <div class="site-wrapper">
-    <div class="site-wrapper-inner">
-    <div class="cover-container">
-    <div class="masthead clearfix">
-    <div class="inner">
-        <h3 class="masthead-brand">Suriyaa Kudo</h3>
-            <ul class="nav masthead-nav">
+<header>
+    <div class="container">
+    <a href="/" class="logo-wrap">
+    <span class="logo"></span>
+    </a>
+    <div class="toggle-nav"></div>
+
+        <nav>
+            <ul>
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="/wiki">Wiki</a></li>
                 <li><a href="/blog">Blog</a></li>
@@ -69,24 +77,28 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-    </div>
-    </div>
+        </nav>
 
-    <div class="inner cover">
-        <h1 class="cover-heading">Hello.</h1>
-            <p class="lead">My name is Suriyaa Kudo and I’m a web developer. I create stuffs for the web in Munich and San Fransisco.
-            <br>
-            </p>
-            
-            <p class="lead">
-            <a href="about.html" class="btn btn-lg btn-default">Learn more about me -></a>
-            </p>
-            
-            <p>
-            <u>Notice:</u> Have fun!
-            </p>
     </div>
+</header>
 
+    <div class='container'>
+        <section class="intro">
+            <div class="inner cover">
+                <h1 class="cover-heading">Hello.</h1>
+                    <p class="lead">My name is Suriyaa Kudo and I’m a web developer. I create stuffs for the web in Munich and San Fransisco.
+                    <br>
+                    </p>
+            
+                    <hr>
+            
+                    <a href="https://twitter.com/SuriyaaKudoIsc" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @SuriyaaKudoIsc</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+    </div>
+        </section>
+
+<footer>
     <div class="mastfoot">
     <div class="inner">
     <p class="text-muted">
@@ -94,19 +106,16 @@
     <!--
     DatumAktuell = new Date();
     JahrAktuell = DatumAktuell.getFullYear();
-    document.write("&copy; 2014-"+ JahrAktuell + " <b>Proudly built with <3 in Munich</b>");
+    document.write("&copy; 2014-"+ JahrAktuell + " <b>Suriyaa Kudo</b>");
     //-->
     </script>
+    <i>Proudly built with LOVE in Munich.</i>
     </p>
     </div>
     </div>
+</footer>
 
 <!-- END -->
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
