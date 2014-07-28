@@ -15,7 +15,6 @@ Location: Munich (MÜ) , Bavaria (BY), Germany (DE)
 /* THANKS */
 
 * GitHub
-* Bootstrap
 * Normalize.css
 * jQuery
 * Modernizr
