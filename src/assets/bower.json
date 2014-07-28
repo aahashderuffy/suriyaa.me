@@ -1,6 +1,28 @@
 {
   "name": "suriyaa.me",
+  "version": "0.1",
   "dependencies": {
     "octicons": "*"
   }
+  "main": [
+    "src"
+  ],
+  "ignore": [
+    "bin",
+    ".editorconfig",
+    ".gitattributes",
+    ".gitignore",
+    ".jshintrc",
+    ".npmignore",
+    ".travis.yml",
+    "Gemfile",
+    "Gruntfile.js",
+    "Rakefile",
+    "Makefile",
+    "package.json"
+    "browserconfig.xml",
+    "config.rb",
+    "crossdomain.xml",
+    "package.json"
+  ]
 }
