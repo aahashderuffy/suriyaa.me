@@ -31,7 +31,7 @@ Location: Munich (MÜ) , Bavaria (BY), Germany (DE)
 Link: http://suriyaa.me or http://suriyaa.isc
 
 Create date: 2014/07/27
-Last update: 2014/07/27
+Last update: 2014/07/28
 
 Standards: HTML5, CSS3
 Components: HTML5, CSS3, JavaScript, Normalize.css, jQuery, Modernizr
