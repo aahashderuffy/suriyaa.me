@@ -5,25 +5,4 @@
     "octicons": "*",
     "iconizr": "*"
   }
-  "main": [
-    "src"
-  ],
-  "ignore": [
-    "bin",
-    ".editorconfig",
-    ".gitattributes",
-    ".gitignore",
-    ".jshintrc",
-    ".npmignore",
-    ".travis.yml",
-    "Gemfile",
-    "Gruntfile.js",
-    "Rakefile",
-    "Makefile",
-    "package.json"
-    "browserconfig.xml",
-    "config.rb",
-    "crossdomain.xml",
-    "package.json"
-  ]
 }
