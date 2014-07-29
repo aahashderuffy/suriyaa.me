@@ -2,7 +2,8 @@
   "name": "suriyaa.me",
   "version": "0.1",
   "dependencies": {
-    "octicons": "*"
+    "octicons": "*",
+    "iconizr": "*"
   }
   "main": [
     "src"
