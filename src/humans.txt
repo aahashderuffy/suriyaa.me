@@ -1,28 +1,32 @@
+/* Humans.txt - We Are People, Not Machines */
+
+====
+
 /* THIS IS THE HUMANS.TXT TO SIGN THIS WEBSITE! */
 
 ----
 
 /* TEAM */
-
-/* Website, Videos, etc. */
-Author: Suriyaa Kudo
+Name: Suriyaa Kudo
+Contact: isc.suriyaa@gmail.com
 Site: http://suriyaa.me
 Twitter: @SuriyaaKudoIsc
-Location: Munich (MÜ) , Bavaria (BY), Germany (DE)
+Location: San Fransisco (SF), California (CA), USA
 
 ----
 
 /* THANKS */
 
-* GitHub
-* Normalize.css
-* jQuery
-* Modernizr
-* MediaElement.js
-* PrestaShop
-* WordPress
-* MediaWiki
-* YOURLS
+* iSC Host (http://suriyaa.me)
+* GitHub (https://github.com/iSC-Host/suriyaa.me)
+* Normalize.css ()
+* jQuery ()
+* Modernizr ()
+* MediaElement.js ()
+* PrestaShop ()
+* WordPress ()
+* MediaWiki ()
+* YOURLS ()
 
 ----
 
@@ -31,7 +35,7 @@ Location: Munich (MÜ) , Bavaria (BY), Germany (DE)
 Link: http://suriyaa.me or http://suriyaa.isc
 
 Create date: 2014/07/27
-Last update: 2014/07/28
+Last update: 2014/07/31
 
 Standards: HTML5, CSS3
 Components: HTML5, CSS3, JavaScript, Normalize.css, jQuery, Modernizr
