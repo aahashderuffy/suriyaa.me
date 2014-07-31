@@ -17,16 +17,16 @@ Location: San Fransisco (SF), California (CA), USA
 
 /* THANKS */
 
-* iSC Host (http://suriyaa.me)
-* GitHub (https://github.com/iSC-Host/suriyaa.me)
-* Normalize.css ()
-* jQuery ()
-* Modernizr ()
-* MediaElement.js ()
-* PrestaShop ()
-* WordPress ()
-* MediaWiki ()
-* YOURLS ()
+* iSC Host (http://suriyaa.me/)
+* GitHub (https://github.com/iSC-Host/suriyaa.me/)
+* Normalize.css (http://necolas.github.io/normalize.css/)
+* jQuery (http://jquery.com/)
+* Modernizr (http://modernizr.com/)
+* MediaElement.js (http://mediaelementjs.com/)
+* PrestaShop (http://www.prestashop.com/)
+* WordPress (http://wordpress.org/)
+* MediaWiki (mediawiki.org/)
+* YOURLS (http://yourls.org/)
 
 ----
 
