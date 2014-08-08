@@ -22,7 +22,6 @@ Location: San Fransisco (SF), California (CA), USA
 * Normalize.css (http://necolas.github.io/normalize.css/)
 * jQuery (http://jquery.com/)
 * Modernizr (http://modernizr.com/)
-* MediaElement.js (http://mediaelementjs.com/)
 * PrestaShop (http://www.prestashop.com/)
 * WordPress (http://wordpress.org/)
 * MediaWiki (mediawiki.org/)
