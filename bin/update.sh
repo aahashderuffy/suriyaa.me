@@ -66,7 +66,7 @@ remove_unneeded_content() {
             -exec rm -rf {} \; \
         && cp -r dist/ . \
         && rm -rf dist/
-    print_result $? "Remove unneded content"
+    print_result $? "Remove unneeded content"
 }
 
 update_content() {
