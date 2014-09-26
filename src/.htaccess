@@ -1,3 +1,4 @@
-ErrorDocument 404 http://suriyaa.me/404page.html
-ErrorDocument 404 http://suriyaa.isc/404page.html
+# .htaccess
+
+## ERROR documents
 ErrorDocument 404 http://isc-host.github.io/suriyaa.me/404page.html
