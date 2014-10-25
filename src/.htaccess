@@ -1,4 +1,8 @@
 # .htaccess
 
 ## ERROR documents
-ErrorDocument 404 http://isc-host.github.io/suriyaa.me/404page.html
+ErrorDocument 400 /errors/badrequest.html
+ErrorDocument 401 /errors/authreqd.html
+ErrorDocument 403 /errors/forbid.html
+ErrorDocument 404 /errors/notfound.html
+ErrorDocument 500 /errors/serverr.html
