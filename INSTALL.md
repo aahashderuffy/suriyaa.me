@@ -10,3 +10,9 @@ Now install this website with *Ruby Command line* from [Ruby](http://rubyinstall
     ~ $ cd myblog
     ~/myblog $ jekyll serve
     # => Now browse to http://localhost:4444
+
+# View
+View the website under [http://localhost:4444](http://localhost:4444). Finished. ;-)
+
+----
+(c) *2014-present* **Suriyaa Kudo**
