@@ -1,6 +1,28 @@
-name: Suriyaa Kudo
+# Site configuration
+
+title: Suriyaa Kudo
+description: The official website of Suriyaa Kudo.
+logo:  # 120x120 px default image used for Twitter summary card
+teaser:  # 400x250 px default teaser image used in image archive grid
+baseurl: /
 url: http://isc-host.github.io/suriyaa.me
 files_url: http://isc-host.github.io/suriyaa.me/assets
-description: The official website of Suriyaa Kudo.
--
+
+
+# Jekyll configuration
+
 layout: "default"
+
+navigation:
+- title: Home
+  url: /
+  - title: Resume
+  url: /resume/
+  - title: About
+  url: /about
+- title: Contact
+  url: /contact
+
+include: ["_data"]
+
+exclude: ["lib", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "package.json"]
