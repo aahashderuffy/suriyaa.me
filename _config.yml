@@ -19,6 +19,6 @@ navigation:
   - title: Resume
   url: /resume/
   - title: About
-  url: /about
+  url: /about.html
  - title: Contact
-  url: /contact
+  url: /contact.html
