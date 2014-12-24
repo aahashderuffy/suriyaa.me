@@ -14,13 +14,13 @@ files_url: http://isc-host.github.io/suriyaa.me/assets
 layout: "default"
 
 navigation:
-- title: Home
+ - title: Home
   url: /
   - title: Resume
   url: /resume/
   - title: About
   url: /about
-- title: Contact
+ - title: Contact
   url: /contact
 
 include: ["_data"]
