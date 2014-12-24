@@ -12,13 +12,3 @@ files_url: http://isc-host.github.io/suriyaa.me/assets
 # Jekyll configuration
 
 layout: "default"
-
-navigation:
- - title: Home
-  url: /index.html
-  - title: Resume
-  url: /resume/
-  - title: About
-  url: /about.html
- - title: Contact
-  url: /contact.html
