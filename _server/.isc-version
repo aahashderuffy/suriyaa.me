@@ -1,5 +1,7 @@
-/* iSC Version*/
+/* iSC Version */
+
 // Show version status for iSC Server and other applications
 {
-"STANDARD": "1.0",
-},
+    "software": v1.0,
+    "browser": true
+}
