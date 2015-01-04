@@ -7,7 +7,7 @@
 
     <!-- INFO(S) -->
             <link rel="author" href="humans.txt" />
-            <meta name="description" content="The official website of Suriyaa Kudo.">
+            <meta name="description" content="{{ site.description }}">
             <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- ICONS -->
@@ -17,9 +17,9 @@
             <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png"/>
 
     <!-- CSS -->
-            <link rel="stylesheet" href="assets/css/normalize.css" type="text/css" />
-            <link rel="stylesheet" href="assets/css/base.css" type="text/css" />
-            <link rel="stylesheet" href="assets/bower_components/octicons/octicons/octicons.css">
+            <link rel="stylesheet" href="{{ "/assets/css/normalize.css" | prepend: site.baseurl }}">
+            <link rel="stylesheet" href="{{ "/assets/css/base.css" | prepend: site.baseurl }}">
+            <link rel="stylesheet" href="{{ "/assets/bower_components/octicons/octicons/octicons.css" | prepend: site.baseurl }}">
 
     <!-- TYPEKIT -->
             <script type="text/javascript" src="//use.typekit.net/bnv8gvu.js"></script>
@@ -27,7 +27,7 @@
 
     <!-- SCRIPTS -->
             <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-            <script type="text/javascript" src="assets/js/toggle-nav.js"></script>
+            <script type="text/javascript" src="{{ "/assets/js/toggle-nav.js" | prepend: site.baseurl }}"></script>
 
     <!-- FACEBOOK -->
             <meta property="og:url" content="http://suriyaa.me">
