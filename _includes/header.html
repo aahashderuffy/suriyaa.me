@@ -4,7 +4,7 @@
 
 <script>
 $(document).ready(function(){
-$("#clickme").loadingbar({
+$("#nav").loadingbar({
 done: function(data) {
 $.each( data.shots, function( i, item ) {
 $( "<img/>" ).attr( "src", item.image_teaser_url ).prependTo( $("#frame") );
@@ -31,7 +31,7 @@ return false;
                 <li><a class="ajax-call" href="http://isc-host.github.io/suriyaa.me/resume">Resume</a></li>
                 <li><a class="ajax-call" href="http://isc-host.github.io/suriyaa.me/about">About</a></li>
                 <li><a class="ajax-call" href="http://isc-host.github.io/suriyaa.me/contact">Contact</a></li>
-                <li><a href="http://isc-host.github.io/suriyaa.me/contact" data-target="#frame" class="ajax-call" id="clickme">Contact</a></li>
+                <li><a class="ajax-call" href="http://isc-host.github.io/suriyaa.me/contact" data-target="#frame" id="nav">Contact</a></li>
                 <div id="loadingbar-frame"></div>
             </ul>
         </nav>
