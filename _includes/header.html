@@ -7,7 +7,7 @@ $(document).ready(function(){
 $("#nav").loadingbar({
 done: function(data) {
 $.each( data.shots, function( i, item ) {
-$( "<img/>" ).attr( "src", item.image_teaser_url ).prependTo( $("#frame") );
+$( "<img/>" ).attr( "src", item.image_teaser_url ).prependTo( $("#loadingbar") );
 if ( i === 11 ) {
 return false;
 }
@@ -27,11 +27,10 @@ return false;
 
         <nav>
             <ul>
-                <li><a class="ajax-call" href="http://isc-host.github.io/suriyaa.me/index.html">Home</a></li>
-                <li><a class="ajax-call" href="http://isc-host.github.io/suriyaa.me/resume">Resume</a></li>
-                <li><a class="ajax-call" href="http://isc-host.github.io/suriyaa.me/about">About</a></li>
-                <li><a class="ajax-call" href="http://isc-host.github.io/suriyaa.me/contact">Contact</a></li>
-                <li><a class="ajax-call" href="http://isc-host.github.io/suriyaa.me/contact" data-target="#frame" id="nav">Contact</a></li>
+                <li><a class="ajax-call" href="http://isc-host.github.io/suriyaa.me" data-target="#loadingbar" id="nav">Home</a></li>
+                <li><a class="ajax-call" href="http://isc-host.github.io/suriyaa.me/resume" data-target="#loadingbar" id="nav">Resume</a></li>
+                <li><a class="ajax-call" href="http://isc-host.github.io/suriyaa.me/about" data-target="#loadingbar" id="nav">About</a></li>
+                <li><a class="ajax-call" href="http://isc-host.github.io/suriyaa.me/contact" data-target="#loadingbar" id="nav">Contact</a></li>
                 <div id="loadingbar-frame"></div>
             </ul>
         </nav>
