@@ -2,6 +2,21 @@
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
+<script>
+$(document).ready(function(){
+$("#clickme").loadingbar({
+done: function(data) {
+$.each( data.shots, function( i, item ) {
+$( "<img/>" ).attr( "src", item.image_teaser_url ).prependTo( $("#frame") );
+if ( i === 11 ) {
+return false;
+}
+});
+}
+});
+});
+</script>
+
 <!-- Add your site or application content here -->
 <header>
     <div class="container">
@@ -16,6 +31,7 @@
                 <li><a class="ajax-call" href="http://isc-host.github.io/suriyaa.me/resume">Resume</a></li>
                 <li><a class="ajax-call" href="http://isc-host.github.io/suriyaa.me/about">About</a></li>
                 <li><a class="ajax-call" href="http://isc-host.github.io/suriyaa.me/contact">Contact</a></li>
+                <li><a href="http://isc-host.github.io/suriyaa.me/contact" data-datatype="html" data-type="GET" data-target="#frame" class="reload" id="clickme">Contact</a></li>
                 <div id="loadingbar-frame"></div>
             </ul>
         </nav>
