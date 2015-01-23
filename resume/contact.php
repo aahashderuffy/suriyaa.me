@@ -18,14 +18,14 @@ $mail_status = mail($mail_to, $subject, $body_message, $headers);
 if ($mail_status) { ?>
 	<script language="javascript" type="text/javascript">
 		alert('Thank you for the message. I will contact you shortly.');
-		window.location = 'sent';
+		window.location = 'index.html';
 	</script>
 <?php
 }
 else { ?>
 	<script language="javascript" type="text/javascript">
 		alert('Ops. Message failed. Please, send an email to isc.suriyaa@gmail.com.');
-		window.location = 'mailfail';
+		window.location = 'index.html';
 	</script>
 <?php
 }
