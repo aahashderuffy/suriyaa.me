@@ -8,3 +8,13 @@
     </div>
   </div>
 </footer>
+
+<script>
+NProgress.start();
+setTimeout(function() { NProgress.done(); }, 1000);
+
+$("#index").click(function() { NProgress.start(); });
+$("#resume").click(function() { NProgress.start(); });
+$("#about").click(function() { NProgress.start(); });
+$("#contact").click(function() { NProgress.start(); });
+</script>
