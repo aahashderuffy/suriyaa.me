@@ -2,21 +2,6 @@
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<script>
-$(document).ready(function(){
-$("#nav").loadingbar({
-done: function(data) {
-$.each( data.shots, function( i, item ) {
-$( "<img/>" ).attr( "src", item.image_teaser_url ).prependTo( $("#loadingbar") );
-if ( i === 11 ) {
-return false;
-}
-});
-}
-});
-});
-</script>
-
 <!-- Add your site or application content here -->
 <header>
     <div class="container">
