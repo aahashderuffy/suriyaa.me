@@ -18,7 +18,8 @@ The official website of **Suriyaa Kudo**.
 - [x] [Typekit](https://typekit.com/)
 - [x] [normalize.css](https://necolas.github.io/normalize.css/)
 - [x] [jQuery](http://jquery.com/)
-- [x] [Octicons](https://octicons.github.com/)
+- [ ] [Octicons](https://octicons.github.com/)
+- [ ] [foxyform](https://foxyform.com/)
 - [ ] [Videofy](http://suriyaakudoisc.github.io/loading-bar/) / [YouTube](http://www.thepetedesign.com/demos/youtube_loadingbar_demo.html) loading bar
 - [x] [NProgress](http://ricostacruz.com/nprogress) loading bar
 - [ ] [Videofy](https://github.com/iSC-Networks-Videos) video player
