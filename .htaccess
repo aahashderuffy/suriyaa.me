@@ -5,8 +5,8 @@ RewriteEngine On
 DirectoryIndex index.html index.php index.isc index.cgi index.aps
 
 # Set up language
-AddLanguage en .html
-AddLanguage de .html
+AddLanguage en .html .php .isc .cgi .aps
+AddLanguage de .html .php .isc .cgi .aps
 
 # Set up cache for robots + browser
 <IfModule mod_headers.c>
