@@ -7,5 +7,10 @@ layout:
 
 # Allow crawling of all content
 User-agent: *
-Allow: index.html
+
+Allow: index
+
+Disallow: /about
+Disallow: /get
+Disallow: /contact
 Disallow: /
