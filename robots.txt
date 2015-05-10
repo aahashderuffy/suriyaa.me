@@ -10,7 +10,8 @@ User-agent: *
 
 Allow: index
 
-Disallow: /about
+Allow: /about
+Allow: /resume
 Disallow: /get
-Disallow: /contact
+Allow: /contact
 Disallow: /
