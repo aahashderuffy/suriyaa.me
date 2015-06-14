@@ -1,12 +1,13 @@
 # Site settings
 
 title: Suriyaa Kudo
-email: isc.suriyaa@gmail.com
 description: The official website of Suriyaa Kudo.
 
 baseurl: "/suriyaa.me" # the subpath of your site, e.g. /blog/
 url: "http://isc-host.github.io" # the base hostname & protocol for your site
 files_url: http://isc-host.github.io/suriyaa.me/assets
+
+email: isc.suriyaa@gmail.com
 
 google_analytics_id: UA-53583302-3
 
