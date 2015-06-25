@@ -21,6 +21,24 @@ $("#about").click(function() { NProgress.start(); });
 $("#contact").click(function() { NProgress.start(); });
 </script>
 
+<!-- Polyglot Language Switcher v2 - jQuery Plugin -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="../assets/js/language-switcher/jquery-polyglot.language.switcher.js" type="text/javascript"></script>
+<script>
+    jQuery(document).ready(function ($) {
+        $('.polyglot-language-switcher').polyglotLanguageSwitcher()
+                .on('popupOpening', function(evt){
+                    console.log(evt);
+                }).on('popupOpened', function(evt){
+                    console.log(evt);
+                }).on('popupClosing', function(evt){
+                    console.log(evt);
+                }).on('popupClosed', function(evt){
+                    console.log(evt);
+                });
+    });
+</script>
+
 <!-- Google Social Profiles Links -->
 <script type="application/ld+json">
 { "@context" : "http://schema.org",
