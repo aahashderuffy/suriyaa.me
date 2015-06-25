@@ -67,7 +67,7 @@ footer .container {
 }
 
 .logo {
-  background: url("/images/logo.png");
+  background: url("assets/img/logo.png");
   display: block;
   height: 26px;
   width: 34px;
@@ -75,7 +75,7 @@ footer .container {
 }
 
 .toggle-nav {
-  background: url("/images/toggle-nav.png");
+  background: url("assets/img/toggle-nav.png");
   cursor: pointer;
   display: block;
   float: right;
@@ -740,7 +740,7 @@ figure {
 /* Timeline
 -------------------------------------------------------------- */
 .timeline-logo {
-  background: url("/images/logo-2x.png");
+  background: url("assets/img/logo-2x.png");
   background-size: 44px 36px;
   display: inline-block;
   width: 44px;
@@ -836,7 +836,7 @@ figure {
 }
 
 .pin {
-  background: url(/images/pin.png);
+  background: url(assets/img/pin.png);
   display: inline-block;
   width: 15px;
   height: 21px;
@@ -845,7 +845,7 @@ figure {
 }
 
 .link {
-  background: url(/images/link.png);
+  background: url(assets/img/link.png);
   display: inline-block;
   width: 24px;
   height: 21px;
@@ -854,7 +854,7 @@ figure {
 }
 
 .check {
-  background: url(/images/check.png);
+  background: url(assets/img/check.png);
   display: inline-block;
   width: 21px;
   height: 21px;
@@ -968,27 +968,27 @@ iframe {
 -------------------------------------------------------------- */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .logo {
-    background: url("/images/logo-2x.png");
+    background: url("assets/img/logo-2x.png");
     background-size: 34px 26px;
   }
 
   .toggle-nav {
-    background: url("/images/toggle-nav@2x.png");
+    background: url("assets/img/toggle-nav@2x.png");
     background-size: 31px 26px;
   }
 
   .pin {
-    background: url("/images/pin-2x.png");
+    background: url("assets/img/pin-2x.png");
     background-size: 15px 21px;
   }
 
   .link {
-    background: url(/images/link-2x.png);
+    background: url(assets/img/link-2x.png);
     background-size: 24px 21px;
   }
 
   .check {
-    background: url(/images/check-2x.png);
+    background: url(assets/img/check-2x.png);
     background-size: 21px 21px;
   }
 }
