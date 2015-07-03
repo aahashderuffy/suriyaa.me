@@ -13,9 +13,9 @@ if (isset($_GET['e'])) {
 	$sql_delete = mysql_query("DELETE FROM newsletter WHERE email='$email' LIMIT 1");
 	
 	if (!$sql_delete) {
-		echo "Sorry there seems to be trouble removing your listing. Please email Admin directly using this email address: put an email address here";
+		echo "Sorry there seems to be trouble removing your listing. :-S Please email Suriyaa Kudo directly using this email address: put an email address here";
 	} else {
-		echo "It is done. You will not receive our newsletter ever again unless you relist.";
+		echo "It is done. You will not receive my newsletter ever again unless you relist. :-(";
 	}
 }
 ?>
