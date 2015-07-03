@@ -40,13 +40,15 @@ if ($_POST['name'] != "") {
 ?>
 <html>
 <head>
-<title>Subscribe to Our Newsletter</title>
-</head>
 
+<title>Newsletter | Suriyaa Kudo</title>
+
+</head>
 <body>
+
 <form style="width:440px;" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 <fieldset style="text-align:left; padding:24px;"> 
-<legend>Subscribe to Our Newsletter &nbsp;</legend> 
+<legend>Subscribe to the Newsletter of Suriyaa Kudo &nbsp;</legend> 
 <br />
 Name:<br />
 <input name="name" type="text" maxlength="36" value="<?php echo $name; ?>" /><br /> 
@@ -56,5 +58,6 @@ Email:<br />
 <?php echo $msg_to_user; ?>
 </fieldset> 
 </form>
+
 </body>
 </html>
