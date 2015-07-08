@@ -5,6 +5,6 @@ export PATH=/usr/share/rbenv/shims:$PATH RBENV_VERSION=$(cat .ruby-version)
 
 script/branding
 
-echo "Let set up the website here..."
+echo "Let set up the website of Suriyaa Kudo here..."
 bundle install
-echo "WOW!"
+echo "WOW!!!"
