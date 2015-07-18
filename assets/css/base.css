@@ -67,7 +67,7 @@ footer .container {
 }
 
 .logo {
-  background: url("assets/img/logo.png");
+  background: url("https://isc-host.github.io/suriyaa.me/assets/img/logo.png");
   display: block;
   height: 26px;
   width: 34px;
@@ -75,7 +75,7 @@ footer .container {
 }
 
 .toggle-nav {
-  background: url("assets/img/toggle-nav.png");
+  background: url("https://isc-host.github.io/suriyaa.me/assets/img/toggle-nav.png");
   cursor: pointer;
   display: block;
   float: right;
