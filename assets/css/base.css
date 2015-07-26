@@ -968,22 +968,22 @@ iframe {
 -------------------------------------------------------------- */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .logo {
-    background: url("assets/img/logo-2x.png");
+    background: url("https://isc-host.github.io/suriyaa.me/assets/img/logo-2x.png");
     background-size: 34px 26px;
   }
 
   .toggle-nav {
-    background: url("assets/img/toggle-nav@2x.png");
+    background: url("https://isc-host.github.io/suriyaa.me/assets/img/toggle-nav@2x.png");
     background-size: 31px 26px;
   }
 
   .pin {
-    background: url("assets/img/pin-2x.png");
+    background: url("https://isc-host.github.io/suriyaa.me/assets/img/pin-2x.png");
     background-size: 15px 21px;
   }
 
   .link {
-    background: url(assets/img/link-2x.png);
+    background: url("https://isc-host.github.io/suriyaa.me/assets/img/link-2x.png");
     background-size: 24px 21px;
   }
 
