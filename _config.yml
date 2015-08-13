@@ -5,7 +5,7 @@ description: The official website of Suriyaa Kudo.
 
 baseurl: "/suriyaa.me" # the subpath of your site, e.g. /blog/
 url: "http://isc-host.github.io" # the base hostname & protocol for your site
-files_url: http://isc-host.github.io/suriyaa.me/assets
+files_url: http://isc-host.github.io/suriyaa.me/assets/
 
 email: isc.suriyaa@gmail.com
 
