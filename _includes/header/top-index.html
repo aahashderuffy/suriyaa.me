@@ -119,18 +119,18 @@
 
     <!-- ICONS -->
         <!-- Favicons -->
-            <link rel="shortcut icon" href="img/favicon.png">
+            <link rel="shortcut icon" href="{{ "img/favicon.png" | prepend: site.baseurl }}">
         <!-- Apple Touch Icon(s) -->
-            <link rel="apple-touch-icon" href="img/apple-touch-icon.png"/>
+            <link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png" | prepend: site.baseurl }}"/>
 
     <!-- CSS -->
-            <link rel="stylesheet" href="css/normalize.css">
-            <link rel="stylesheet" href="css/base.css">
-            <link rel="stylesheet" href="bower/octicons/octicons/octicons.css">
+            <link rel="stylesheet" href="{{ "css/normalize.css" | prepend: site.baseurl }}">
+            <link rel="stylesheet" href="{{ "css/base.css" | prepend: site.baseurl }}">
+            <link rel="stylesheet" href="{{ "bower/octicons/octicons/octicons.css" | prepend: site.baseurl }}">
             <!-- LOADING BAR STYLESHEETS -->
-            <link rel="stylesheet" href="css/loadingbar/blue.css">
+            <link rel="stylesheet" href="{{ "css/loadingbar/blue.css" | prepend: site.baseurl }}">
             <!-- POLYGLOT LANGUAGE SWITCHER v2 -jQuery Plugin -->
-            <link href="css/language-switcher/polyglot-language-switcher-2.css" rel="stylesheet">
+            <link href="{{ "css/language-switcher/polyglot-language-switcher-2.css" | prepend: site.baseurl }}" rel="stylesheet">
             <style type="text/css">
             .container-ls {
                  width: 780px;
@@ -147,16 +147,16 @@
             </style>
 
     <!-- SCRIPTS -->
-                        <script src="js/render/jquery.min.js"></script>
-                        <script src="js/toggle-nav.js"></script>
+                        <script src="{{ "js/render/jquery.min.js" | prepend: site.baseurl }}"></script>
+                        <script src="{{ "js/toggle-nav.js" | prepend: site.baseurl }}"></script>
 
             <!-- LOADING BAR SCRIPTS -->	
-                        <script src="js/render/jquery-1.9.1.js"></script>
-                        <script src="js/loadingbar/jquery.loadingbar.js"></script>
+                        <script src="{{ "js/render/jquery-1.9.1.js" | prepend: site.baseurl }}"></script>
+                        <script src="{{ "js/loadingbar/jquery.loadingbar.js" | prepend: site.baseurl }}"></script>
             
             <!-- nprogress loading bar -->
-                        <script src='js/nprogress/nprogress.js'></script>
-                        <link rel='stylesheet' href='css/nprogress/nprogress.css'/>
+                        <script src="{{ "js/nprogress/nprogress.js" | prepend: site.baseurl }}"></script>
+                        <link rel="stylesheet" href="{{ "css/nprogress/nprogress.css" | prepend: site.baseurl }}"/>
 
             <!-- PictureFill -->
                         <script>
@@ -165,7 +165,7 @@
                         </script>
                         <script src="http://www.englisch-hilfen.de/js/picturefill.min.js" async></script>
             <!-- Google reCAPTCHA -->
-                        <script src='https://www.google.com/recaptcha/api.js'></script>
+                        <script src="https://www.google.com/recaptcha/api.js"></script>
 
     <!-- TYPEKIT -->
             <script type="text/javascript" src="//use.typekit.net/bnv8gvu.js"></script>
