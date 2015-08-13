@@ -87,6 +87,7 @@ $("#contact").click(function() { NProgress.start(); });
 <!-- Google User Location -->
 <!-- OBTAIN THE USER'S CURRENT LOCATION -->
 <!-- Check for Compatibility -->
+<script>
 // check for Geolocation support
 if (navigator.geolocation) {
   console.log('Geolocation is supported!');
@@ -260,5 +261,6 @@ button.onclick = function() {
 
   navigator.geolocation.getCurrentPosition(geoSuccess, geoError);
 };
+</script>
 
 <!-- SCRIPT END -->
