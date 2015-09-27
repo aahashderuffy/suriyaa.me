@@ -24,7 +24,7 @@ The official website of **Suriyaa Kudo**.
 - [x] [NProgress](http://ricostacruz.com/nprogress) loading bar
 - [ ] [Videofy](https://github.com/iSC-Networks-Videos) video player
 - [ ] [iSC Content Delivery Network (CDN)](https://github.com/iSC-CDN) infrastructure
-- [ ] [Google WebApp Manifest](https://developers.google.com/web/fundamentals/device-access/stickyness/?hl=en)
+- [x] [Google WebApp Manifest](https://developers.google.com/web/fundamentals/device-access/stickyness/?hl=en)
 - [x] [William Syms (wsyms) login](https://github.com/wsyms/login/releases/tag/0.2.2)
 - [x] [DevelopPHP.com newsletter](https://www.developphp.com/video/PHP/Cron-Job-Tutorial-Automate-the-Email-Sending-for-Newsletter)
 
