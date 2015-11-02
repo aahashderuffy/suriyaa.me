@@ -30,4 +30,10 @@
   "start_url": "../index.html?launcher=true",
   "display": "standalone",
   "orientation": "portrait"
+  "related_applications": [
+  {
+  "platform": "play",
+  "id": "isc.apps.android.suriyaa"
+  }
+]
 }
